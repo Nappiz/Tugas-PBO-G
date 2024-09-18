@@ -20,6 +20,10 @@ public class TicketMachine{
             System.out.println("Masukkan uang lebih dari " + amount);
         }
     }
+
+    public int getUang(){
+        return balance;
+    }
     
     public int transaksi(){
         if(balance >= price){
