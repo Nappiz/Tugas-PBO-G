@@ -1,0 +1,24 @@
+
+/**
+ * Write a description of class TicketReservationTicket here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class TicketReservation
+{
+    public static void main(String[] args){
+        Ticket economyTicket = new EconomyTicket(1000);
+        Ticket businessTicket = new BusinessTicket(1000);
+        Ticket FirstClassTicket = new FirstClassTicket(1000);
+        
+        System.out.println("Tiket Ekonomi:");
+        economyTicket.display();
+        
+        System.out.println("Tiket Bisnis:");
+        businessTicket.display();
+        
+        System.out.println("Tiket FirstClass:");
+        FirstClassTicket.display();
+    }
+}
