@@ -1,0 +1,18 @@
+
+/**
+ * Write a description of class BusinessTicket here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class BusinessTicket extends Ticket
+{
+    public BusinessTicket(double baseFare){
+        super(baseFare);
+    }
+    
+    @Override
+    public double calculateFare(){
+        return baseFare + (baseFare * 0.25);
+    }
+}
